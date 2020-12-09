@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="azzidaDB" Class="AzzidaDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=azzidadbserver.database.windows.net;Initial Catalog=azzidaDB;Integrated Security=False;User ID=AzureUser" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="azzidaDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.JobCategory" Member="JobCategories">
+    <Type Name="JobCategory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DisputeResolution" Member="DisputeResolutions">
+    <Type Name="DisputeResolution">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisputeReason" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="PostAssociate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ContactWay" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Attachment" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RoleMaster" Member="RoleMasters">
+    <Type Name="RoleMaster">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Role" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JobImage" Member="JobImages">
+    <Type Name="JobImage">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ImageName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ApplicationStatus" Member="ApplicationStatus">
+    <Type Name="ApplicationStatus">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ListerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsAcceptedByLister" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsAccteptedBySeeker" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsApply" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NotSelected" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rate" Member="Rates">
+    <Type Name="Rate">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Rate" Member="Rate1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tip" Member="Tips">
+    <Type Name="Tip">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TippingAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SeekerRate" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserCard" Member="UserCards">
+    <Type Name="UserCard">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerId" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CardNumber" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ExpiryMonth" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ExpiryYear" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CardType" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReferalBalance" Member="ReferalBalances">
+    <Type Name="ReferalBalance">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Payment" Member="Payments">
+    <Type Name="Payment">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tax" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TotalAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="WorkDuration" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="PaymentToken" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PaymentId" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsSuccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PaymentType" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ToUserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CustomerId" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SeekerPaymentAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="IsSeekerPaymentDone" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PaymentHistory" Member="PaymentHistories">
+    <Type Name="PaymentHistory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="paymentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ListerPaymentAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="IsListerPaymentDone" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsSeekerPaymentDone" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SeekerPaymentAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PaymentStatus" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TippingAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="DisputeAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserMaster" Member="UserMasters">
+    <Type Name="UserMaster">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserPassword" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserEmail" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Skills" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DeviceId" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DeviceType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="GoogleEmail" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FaceBookEmail" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProfilePicture" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="EmailType" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TokenId" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Provider" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="VerifiedId" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JobType" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="RefCode" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserLongitude" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="UserLatitude" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="StripeAccId" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserReceivedAmount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="AzzidaVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JobFee" Member="JobFees">
+    <Type Name="JobFee">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobSeekerFee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="JobListerFee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BackgroundCheck" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CancelJobFee" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Job" Member="Jobs">
+    <Type Name="Job">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="HowLong" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="JobCategory" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="FromDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsComplete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CompletedDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobPicture" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssignSeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IscompleteUser" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CancelReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CancelDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AmountWithAdminCharges" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Applink" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsCancelSeeker" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SeekerCancelReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Chat" Member="Chats">
+    <Type Name="Chat">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ToId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FromId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsTyping" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserMessage" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MessageDateTime" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_UserList" Method="sp_UserList">
+    <Parameter Name="radius" Type="System.Double" DbType="Float" />
+    <Parameter Name="latitude" Type="System.String" DbType="VarChar(1000)" />
+    <Parameter Name="longitude" Type="System.String" DbType="VarChar(1000)" />
+    <ElementType Name="sp_UserListResult">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserLatitude" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="UserLongitude" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="ProfilePicture" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserEmail" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DeviceId" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DeviceType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="JobType" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_SearchJob" Method="sp_SearchJob">
+    <Parameter Name="UserId" Parameter="userId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="radius" Type="System.Double" DbType="Float" />
+    <Parameter Name="Latitude" Parameter="latitude" Type="System.String" DbType="VarChar(1000)" />
+    <Parameter Name="Longitude" Parameter="longitude" Type="System.String" DbType="VarChar(1000)" />
+    <ElementType Name="sp_SearchJobResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="HowLong" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="JobCategory" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="FromDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsComplete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CompletedDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobPicture" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssignSeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IscompleteUser" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CancelReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CancelDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AmountWithAdminCharges" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ProfilePicture" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetMyJob" Method="sp_GetMyJob">
+    <Parameter Name="radius" Type="System.Double" DbType="Float" />
+    <Parameter Name="Latitude" Parameter="latitude" Type="System.String" DbType="VarChar(1000)" />
+    <Parameter Name="Longitude" Parameter="longitude" Type="System.String" DbType="VarChar(1000)" />
+    <ElementType Name="sp_GetMyJobResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="HowLong" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="JobCategory" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="FromDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsComplete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CompletedDate" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobPicture" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssignSeekerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IscompleteUser" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CancelReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CancelDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AmountWithAdminCharges" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Applink" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsCancelSeeker" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SeekerCancelReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetUserChat" Method="sp_GetUserChat">
+    <Parameter Name="FromId" Parameter="fromId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ToId" Parameter="toId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="JobId" Parameter="jobId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserChatResult">
+      <Column Name="SenderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SenderName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SenderProfilePic" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceiverId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceiverName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ReceiverProfilePic" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserMessage" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MessageDateTime" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsTyping" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

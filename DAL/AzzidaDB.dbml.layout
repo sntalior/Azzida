@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.375, 13.625" name="AzzidaDB">
+  <DataContextMoniker Name="/AzzidaDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d2d8a9fb-a486-4e44-90d6-0e7c1ac8d992" absoluteBounds="2.625, 4.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/AzzidaDBDataContext/JobCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2955026b-30b7-47af-b63c-9a75033757cc" absoluteBounds="2.64, 4.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="649587af-2ab9-40f3-a194-22df15864ef9" absoluteBounds="2.875, 1.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/AzzidaDBDataContext/DisputeResolution" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c048bb1-b7d6-471d-8f27-e631e73bbf44" absoluteBounds="2.89, 1.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff897794-46e1-4c9e-b69f-9f9d0a4e5021" absoluteBounds="0.5, 0.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AzzidaDBDataContext/RoleMaster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89cc1c93-0677-47e9-ba7c-411f70ae4575" absoluteBounds="0.51500000000000012, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbb41c00-57f5-4091-9790-e2f945bdc474" absoluteBounds="2.75, 7.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AzzidaDBDataContext/JobImage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ddff706d-fd14-44a0-b24d-77459c207d87" absoluteBounds="2.765, 7.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1cefb52c-7cd0-4ad2-b14d-f30ad22c4b2a" absoluteBounds="7.875, 0.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/AzzidaDBDataContext/ApplicationStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="675076a6-94e8-49b8-b642-74e8163dff6e" absoluteBounds="7.89, 1.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="16f5b4fd-897d-4a61-83a9-cbaf6d23d6f9" absoluteBounds="8.25, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/AzzidaDBDataContext/Rate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c629e302-000e-490e-b5b4-36fa729c1850" absoluteBounds="8.265, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a09a60de-3f49-41d9-a542-6e6193219eac" absoluteBounds="8.25, 6.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/AzzidaDBDataContext/Tip" />
+      <nestedChildShapes>
+        <elementListCompartment Id="729f9ddf-9648-4ca8-897d-e5bc010d7140" absoluteBounds="8.265, 7.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6aeb8ddc-4e68-4131-bdc7-1e898237c0a4" absoluteBounds="10.125, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/AzzidaDBDataContext/UserCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8351b6b8-32e2-474e-b452-e9677b51d146" absoluteBounds="10.14, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="290d44c4-6323-490a-9dbb-6f4e7a89ed70" absoluteBounds="0.5, 9.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AzzidaDBDataContext/ReferalBalance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="921e5846-7631-4812-be6f-ef83c2b63aa8" absoluteBounds="0.51500000000000057, 9.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="87bec892-e66c-414a-9413-52419affee5a" absoluteBounds="6, 9.25, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/AzzidaDBDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b00ccb3-d58a-4a0a-b9d2-d6bfbb951148" absoluteBounds="6.015, 9.71, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f489c499-a5bc-4472-b41d-a48706b75ad0" absoluteBounds="8.375, 9.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/AzzidaDBDataContext/PaymentHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1152848d-4be3-4ebd-9ebc-db9657bb025e" absoluteBounds="8.39, 9.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abd0d5f7-ab61-4915-9357-eac96cef4a2d" absoluteBounds="0.5, 2.25, 2, 6.1938297526041657">
+      <DataClassMoniker Name="/AzzidaDBDataContext/UserMaster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9b538b4-d1b6-49ae-867f-d8ddd3bb0266" absoluteBounds="0.51500000000000012, 2.71, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f81a640-b3fc-49a4-8421-25c4a101fa23" absoluteBounds="3, 9.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/AzzidaDBDataContext/JobFee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cca657e-c435-4cab-b5b9-1de6f0696bab" absoluteBounds="3.0149999999999997, 9.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1fc438dc-9eb2-4033-884c-b1a8b66573d4" absoluteBounds="5.5, 0.625, 2, 5.6169254557291657">
+      <DataClassMoniker Name="/AzzidaDBDataContext/Job" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3060105-7fa5-4973-b425-ad0c4e1e9ccb" absoluteBounds="5.515, 1.085, 1.9700000000000002, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="439724ca-be7d-4d74-a0e3-ac13b9199dbf" absoluteBounds="5.375, 6.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/AzzidaDBDataContext/Chat" />
+      <nestedChildShapes>
+        <elementListCompartment Id="adb147b3-3d38-4824-a431-cb3fada7f457" absoluteBounds="5.39, 6.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

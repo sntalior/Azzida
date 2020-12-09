@@ -1,0 +1,52 @@
+﻿@media (min-width: 375px) {
+    #verifybox {
+        width: 92% !important;
+        margin: 0px auto !important;
+    }
+    #lblemailverify{
+        width:100% !important;
+    }
+    #txtemailverify{
+        width:226px !important;
+    }
+    .box-body{
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 360px) {
+    #verifybox {
+        width: 92% !important;
+        margin: 0px auto !important;
+    }
+
+    #lblemailverify {
+        width: 100% !important;
+    }
+
+    #txtemailverify {
+        width: 226px !important;
+    }
+
+    .box-body {
+        width: 80% !important;
+    }
+}
+@media (min-width: 414px) {
+    #verifybox {
+        width: 92% !important;
+        margin: 0px auto !important;
+    }
+
+    #lblemailverify {
+        width: 100% !important;
+    }
+
+    #txtemailverify {
+        width: 226px !important;
+    }
+
+    .box-body {
+        width: 80% !important;
+    }
+}
