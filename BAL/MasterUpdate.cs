@@ -356,11 +356,11 @@ namespace BAL
             }
             string str = "<div><h2 style='color:blue !important'><img src='http://13.72.77.167:8085/ApplicationImages/LogoAzzida.png'/></h2></br>";
             //  str = str + "<h5 style='color:blue !important;'>" + "Start Getting Stuff Done!" + " </h5></br>";
-            str = str + "<p style='color:black !important;'>Dear " + receiverdata.FirstName + ", </p></br>";
-            str = str + "<p style='color:black !important;'>" + senderdata.SenderFullName + " accepted your application for " + '"' + jobTitle.JobTitle + '"' + ". To view the job posting " + "<a href='" + applink1 + "' style='color:blue !important;'>click here</a></p>"+".";
+            str = str + "<p style='color:black !important;'>Dear " + receiverdata.FirstName + ", </p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>" + senderdata.SenderFullName + " accepted your application for " + '"' + jobTitle.JobTitle + '"' + ". To view the job posting " + "<a href='" + applink1 + "' style='color:blue !important;'>click here</a></p>"+".";
              str = str + "<p style='margin-block: 0px !important;'>The Team At Azzida</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str = str + "<p style='margin-block: 0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</a></p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
             
@@ -766,7 +766,7 @@ namespace BAL
             str = str + "<p style='color:black !important;'>" + ListerData.SenderFullName + " has applied for your job " + '"' + jobtitle.JobTitle + '"' + ". Click here to review " + "<a href='" + applink1 + "' style='color:blue !important;'>" + applink1 + "</a></p></br>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>The Team At Azzida</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str = str + "<p style='margin-block: 0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</a></p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
             
@@ -849,10 +849,10 @@ namespace BAL
             string str = "<div><h2 style='color:blue !important'><img src='http://13.72.77.167:8085/ApplicationImages/LogoAzzida.png'/></h2></br>";
             // str = str + "<h5 style='color:blue !important;'>" + "Start Getting Stuff Done!" + " </h5></br>";
             str = str + "<p style='color:black !important;'>Dear " + receiverdata.FullName + ", </p></br>";
-            str = str + "<p style='color:black !important;'>" + senderdata.SenderFullName + " sent you message. </p></br>";
+            str = str + "<p style='color:black !important;'>You just received a chat message from " + senderdata.SenderFullName + "</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>The Team At Azzida</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str = str + "<p style='margin-block: 0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</p></a>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
             //str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
@@ -925,11 +925,11 @@ namespace BAL
             string str = "<div><h2 style='color:blue !important'><img src='http://13.72.77.167:8085/ApplicationImages/LogoAzzida.png'/></h2></br>";
             // str = str + "<h5 style='color:blue !important;'>" + "Start Getting Stuff Done!" + " </h5></br>";
             str = str + "<p style='color:black !important;'>Dear " + receiverdata.FullName + ", </p></br>";
-            str = str + "<p style='color:black !important;'>" + senderdata.SenderFullName + " sent you message. " + message + "</p></br>";
+            str = str + "<p style='color:black !important;'>You just received a chat message from " + senderdata.SenderFullName + "</p></br>";
             // str = str + "<p><a href='https://www.facebook.com/azzidajobs/' style='color:black !important;'>Follow us on Facebook</a></p></br>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>The Team At Azzida</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str = str + "<p style='margin-block: 0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</p></a>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
             //str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
@@ -1216,7 +1216,7 @@ namespace BAL
             }
 
             string str1 = "<div><h2 style='color:blue !important'><img src='http://13.72.77.167:8085/ApplicationImages/LogoAzzida.png'/></h2></br>";
-            // str1 = str1 + "<h5 style='color:blue !important;'>" + "Start Getting Stuff Done!" + " </h5></br>";
+             str1 = str1 + "<h5 style='color:black !important;'>" + receiverdata.FirstName + " </h5></br>";
             str1 = str1 + "<p style='color:black !important;'>Congratulations, you have funds available for transfer to your bank account at Azzida! To cash out, open the Azzida mobile app, go to " + '"' + "My Profile" + '"' + " and select " + '"' + "Cash Out" + '"' + ".</p></br>";
             str1 = str1 + "<p style='color:black !important;'>Cheers!</p></br>";
             str1 = str1 + "<p style='color:black !important;'>The Team at Azzida</p></br>";
@@ -1224,7 +1224,7 @@ namespace BAL
             //str1 = str1 + "<p style='color:black !important;'>" + " Your cashout is available for " + '"' +  jobAmount.JobTitle + '"' + ". Click here to review " + " <a href = '" + applink1 + "' style = 'color:blue !important;' > " + applink1 + " </a></p></br>";
             // str1 = str1 + "<p><a href='https://www.facebook.com/azzidajobs/' style='color:black !important;'>Follow us on Facebook</a></p></br>";
             str1 = str1 + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str1 = str1 + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str1 = str1 + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str1 = str1 + "<p style='margin-block: 0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</a></p>";
             str1 = str1 + "<p style='color:black !important;margin-block: 0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
 
@@ -1298,11 +1298,11 @@ namespace BAL
             string str = "<div><h2 style='color:blue !important'><img src='http://13.72.77.167:8085/ApplicationImages/LogoAzzida.png'/></h2></br>";
             //  str = str + "<h5 style='color:blue !important;'>" + "Start Getting Stuff Done!" + " </h5></br>";
             str = str + "<p style='color:black !important;'>Dear " + receiverdata1.FullName + ", </p></br>";
-            str = str + "<p style='color:black !important;'>Your Job Performer, " + senderdata1.SenderFullName + " has indicated that " + '"' + Jobdetail.JobTitle + '"' + " has been completed. Click here to confirm " + "<a href='" + applink1 + "' style='color:blue !important;'>" + applink1 + "</a> </p></br>";
+            str = str + "<p style='color:black !important;'>Your Job Performer, " + senderdata1.SenderFullName + " has indicated that your job posting " + '"' + Jobdetail.JobTitle + '"' + " has been completed. Please, " + "<a href='" + applink1 + "' style='color:blue !important;'> click here </a>to review and confirm as soon as possible so that payment can be completed. </p>";
             // str = str + "<p><a href='https://www.facebook.com/azzidajobs/' style='color:black !important;'>Follow us on Facebook</a></p></br>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>The Team At Azzida</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str = str + "<p style='margin-block: 0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</a></p>";
             str = str + "<p style='color:black !important; margin-block: 0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
             //str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
@@ -4267,12 +4267,12 @@ namespace BAL
                 {
                     if (d.DeviceType.ToUpper() == "ANDROID")
                     {
-                        SendNotification(d.DeviceId, UserId.ToString(), d.Id.ToString(), d.FirstName + " " + d.LastName, ListerDetail.FirstName + ", a new job " + JobTitle + "has just been posted. Open the Azzida app to view new jobs near you.", Id, NotificationType, ListerDetail.FirstName + " " + ListerDetail.LastName, path + ListerDetail.ProfilePicture, "");
+                        SendNotification(d.DeviceId, UserId.ToString(), d.Id.ToString(), d.FirstName + " " + d.LastName, ListerDetail.FirstName + ", a new job " + JobTitle + " has just been posted. Open the Azzida app to view new jobs near you.", Id, NotificationType, ListerDetail.FirstName + " " + ListerDetail.LastName, path + ListerDetail.ProfilePicture, "");
                     }
                     else
                     {
                         string otherparam = "\"FromUserId\":\"" + UserId + "\",\"toUserId\":\"" + d.Id + "\",\"fullName\":\"" + d.FirstName + " " + d.LastName + "\",\"JobId\":\"" + Id + "\",\"NotificationType\":\"" + NotificationType + "\",\"SenderFullName\":\"" + ListerDetail.FirstName + " " + ListerDetail.LastName + "\",\"SenderProfilePicture\":\"" + path + ListerDetail.ProfilePicture + "\" ";
-                        string message = ListerDetail.FirstName + ", a new job " + JobTitle + "has just been posted. Open the Azzida app to view new jobs near you.";
+                        string message = ListerDetail.FirstName + ", a new job " + JobTitle + " has just been posted. Open the Azzida app to view new jobs near you.";
                         SendIhpone(d.DeviceId, otherparam, message);
                     }
 
@@ -4284,7 +4284,7 @@ namespace BAL
                     //  str = str + "<p><a href='https://www.facebook.com/azzidajobs/' style='color:black !important;'>Follow us on Facebook</a></p></br>";
                     str = str + "<p style='color:black !important;margin-block: 0px !important;'>The Team At Azzida</p>";
                     str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-                    str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+                    str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
                     str = str + "<p style='margin-block:0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</a></p>";
                     str = str + "<p style='color:black !important;margin-block:0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
                     //str = str + "<p style='color:black !important;margin-block:0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
@@ -4407,7 +4407,7 @@ namespace BAL
             str = str + "<p style='color:black !important'>" + "Check Dispute from Id=" + dr.Id + "</p></br>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>The Team At Azzida</p>";
             str = str + "<p style='color:black !important;margin-block: 0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";
-            str = str + "<p style='color:black !important;margin-block: 0px !important;'>AppLink: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
+            str = str + "<p style='color:black !important;margin-block: 0px !important;'>App Link: <a href='https://play.google.com/store/apps/details?id=com.azzida' style='color:blue !important;'>https://play.google.com/store/apps/details?id=com.azzida</a></p>";
             str = str + "<p style='margin-block:0px !important;'><a href='https://www.instagram.com/azzida_app' style='color:blue !important;'>Follow us on Instagram</a></p>";
             str = str + "<p style='color:black !important;margin-block:0px !important;'>Web: <a href='http://www.azzida.com/' style='color:blue !important;'>www.Azzida.com</a></p>";
             //str = str + "<p style='color:black !important;margin-block:0px !important;'>Email: <a href='mailto:support@azzida.com' style='color:blue !important;'>support@azzida.com</a></p>";

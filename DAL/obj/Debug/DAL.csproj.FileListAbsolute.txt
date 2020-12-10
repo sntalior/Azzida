@@ -1,0 +1,19 @@
+F:\office Work\Azzida\Azzida\DAL\bin\Debug\DAL.dll.config
+F:\office Work\Azzida\Azzida\DAL\bin\Debug\DAL.dll
+F:\office Work\Azzida\Azzida\DAL\bin\Debug\DAL.pdb
+F:\office Work\Azzida\Azzida\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\office Work\Azzida\Azzida\DAL\obj\Debug\DAL.dll
+F:\office Work\Azzida\Azzida\DAL\obj\Debug\DAL.pdb
+G:\Azzida\Azzida\DAL\bin\Debug\DAL.dll.config
+G:\Azzida\Azzida\DAL\bin\Debug\DAL.dll
+G:\Azzida\Azzida\DAL\bin\Debug\DAL.pdb
+G:\Azzida\Azzida\DAL\obj\Debug\DAL.dll
+G:\Azzida\Azzida\DAL\obj\Debug\DAL.pdb
+G:\Azzida\Azzida\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Soniya\Azzida\Azzida\DAL\bin\Debug\DAL.dll.config
+D:\Soniya\Azzida\Azzida\DAL\bin\Debug\DAL.dll
+D:\Soniya\Azzida\Azzida\DAL\bin\Debug\DAL.pdb
+D:\Soniya\Azzida\Azzida\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Soniya\Azzida\Azzida\DAL\obj\Debug\DAL.dll
+D:\Soniya\Azzida\Azzida\DAL\obj\Debug\DAL.pdb
+D:\Soniya\Azzida\Azzida\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

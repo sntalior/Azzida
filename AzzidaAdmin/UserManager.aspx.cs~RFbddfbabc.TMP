@@ -1,0 +1,125 @@
+﻿using BAL;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace AzzidaAdmin
+{
+    public partial class UserManager : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (LoginSession.userInfo == null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            if (!IsPostBack)
+            {
+                drprole.Items.Insert(0, new ListItem("--Select Role--", "0"));
+                BindRole();
+                fillUserList();
+              
+            }
+            ltrError.Text = "";
+            dvError.Visible = false;
+        }
+
+        public void BindRole()
+        {
+            MasterUpdate objmaster = new MasterUpdate();
+            var data= objmaster.GetRoles();
+            drprole.DataSource = data;
+            drprole.DataTextField = "Role";
+            drprole.DataValueField = "Id";
+            drprole.DataBind();
+            drprole.Items.Insert(0, new ListItem("--Select Role--", "0"));
+        }
+
+        public void fillUserList()
+        {
+            MasterUpdate objmaster = new MasterUpdate();
+            var data = objmaster.GetUserList();
+            gvUser.DataSource = data;
+            gvUser.DataBind();
+        }
+
+        protected void btnSave_Click(object sender, EventArgs e)
+        {
+            MasterUpdate objmaster = new MasterUpdate();
+            objmaster.Register(Convert.ToInt32(hdnUserValue.Value), Convert.ToInt32(drprole.SelectedValue), txtfirstName.Text, txtLastName.Text,
+                txtPassword.Text, txtEmail.Text, txtskills.Text,"","","","");
+            hdnUserValue.Value = "0";
+            drprole.SelectedValue = "0";
+            txtfirstName.Text = "";
+            txtLastName.Text = "";
+            txtPassword.Text = "";
+            txtEmail.Text = "";
+            txtskills.Text = "";
+            //txtdeviceId.Text = "";
+            //txtdevicetype.Text = "";
+            ltrError.Text = "Successfully Save";
+            dvError.Visible = true;
+            fillUserList();
+        }
+
+        protected void gvUser_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gvUser.PageIndex = e.NewPageIndex;
+            fillUserList();
+
+        }
+
+        protected void gvUser_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName== "UpdateItem")
+            {
+                MasterUpdate objmaster = new MasterUpdate();
+                var data=objmaster.GetUserById(Convert.ToInt32(e.CommandArgument));
+                drprole.SelectedValue = data.RoleId.ToString();
+                txtfirstName.Text = data.FirstName;
+                txtLastName.Text = data.LastName;
+                txtEmail.Text = data.UserEmail;
+                txtPassword.Text = data.UserPassword;
+                txtConfirmPassword.Text = data.UserPassword;
+                txtskills.Text = data.Skills;
+                txtdeviceId.Text = data.DeviceId;
+                txtdevicetype.Text = data.DeviceType;
+          
+
+            }
+            if(e.CommandName== "DeleteItem")
+            {
+                MasterUpdate objmaster = new MasterUpdate();
+                objmaster.DeleteUserById(Convert.ToInt32(e.CommandArgument));
+                fillUserList();
+            }
+        }
+
+        protected void btnactivate_Click(object sender, EventArgs e)
+        {
+            MasterUpdate objmaster = new MasterUpdate();
+            var data= objmaster.UserActiveDeactive(Convert.ToInt32(hdnUserValue.Value));
+            if (data.IsActive.ToString() == "ture")
+            {
+                btnactivate.Text = "Deactive";
+            }
+            else
+            {
+                btnactivate.Text = "Active";
+            }
+            //hdnUserValue.Value = "0";
+            //txtfirstName.Text = "";
+            //txtLastName.Text = "";
+            //txtPassword.Text = "";
+            //txtEmail.Text = "";
+            //txtskills.Text = "";
+            //txtdeviceId.Text = "";
+            //txtdevicetype.Text = "";
+            //ltrError.Text = "Successfully Save";
+            fillUserList();
+        }
+    }
+}

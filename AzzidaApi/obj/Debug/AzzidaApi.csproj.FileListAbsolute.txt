@@ -1,0 +1,338 @@
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll.config
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.pdb
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe.config
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.rsp
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe.config
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.rsp
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Managed.Core.targets
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.AppContext.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Collections.Immutable.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Console.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Compression.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Pipes.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Reflection.Metadata.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.AccessControl.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Claims.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Principal.Windows.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.ValueTuple.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XmlDocument.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XPath.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe.config
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.rsp
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe.config
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\BAL.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\DAL.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Microsoft.Web.Infrastructure.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\WebGrease.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\BAL.pdb
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\DAL.pdb
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\DAL.dll.config
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.pdb
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\office Work\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csprojAssemblyReference.cache
+F:\office Work\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csproj.CopyComplete
+F:\office Work\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.pdb
+G:\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll.config
+G:\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll
+G:\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.pdb
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe.config
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.rsp
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe.config
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.rsp
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.AppContext.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Collections.Immutable.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Console.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Compression.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Pipes.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Reflection.Metadata.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.AccessControl.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Claims.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.ValueTuple.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XPath.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe.config
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.rsp
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe
+G:\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe.config
+G:\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.dll
+G:\Azzida\Azzida\AzzidaApi\bin\BAL.dll
+G:\Azzida\Azzida\AzzidaApi\bin\DAL.dll
+G:\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Azzida\Azzida\AzzidaApi\bin\Microsoft.Web.Infrastructure.dll
+G:\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.dll
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.dll
+G:\Azzida\Azzida\AzzidaApi\bin\WebGrease.dll
+G:\Azzida\Azzida\AzzidaApi\bin\BAL.pdb
+G:\Azzida\Azzida\AzzidaApi\bin\DAL.pdb
+G:\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.xml
+G:\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.xml
+G:\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.pdb
+G:\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csprojResolveAssemblyReference.cache
+G:\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.dll
+G:\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.pdb
+G:\Azzida\Azzida\AzzidaApi\bin\JWT.dll
+G:\Azzida\Azzida\AzzidaApi\bin\Twilio.dll
+G:\Azzida\Azzida\AzzidaApi\bin\Twilio.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll.config
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.pdb
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe.config
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.rsp
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe.config
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.rsp
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.AppContext.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Collections.Immutable.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Console.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Compression.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.Pipes.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Reflection.Metadata.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.AccessControl.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Claims.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Security.Principal.Windows.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.ValueTuple.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XPath.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe.config
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.rsp
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe.config
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\BAL.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\DAL.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\JWT.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Microsoft.Web.Infrastructure.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Twilio.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\WebGrease.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\BAL.pdb
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\DAL.pdb
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\DAL.dll.config
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Twilio.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.pdb
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csprojAssemblyReference.cache
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csproj.CopyComplete
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.dll
+F:\ofcwrk\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.pdb
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\JWT.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Twilio.dll
+F:\office Work\Azzida\Azzida\AzzidaApi\bin\Twilio.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll.config
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\AzzidaApi.pdb
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.exe.config
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\csc.rsp
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.exe
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\csi.rsp
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\System.AppContext.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.exe.config
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\vbc.rsp
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\BAL.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\DAL.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\JWT.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Twilio.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\WebGrease.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\BAL.pdb
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\DAL.pdb
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\DAL.dll.config
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Newtonsoft.Json.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Net.Http.Formatting.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Helpers.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Http.WebHost.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Mvc.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Optimization.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.Razor.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Deployment.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\System.Web.WebPages.Razor.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Twilio.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Antlr3.Runtime.pdb
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Soniya\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csprojAssemblyReference.cache
+D:\Soniya\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csproj.CoreCompileInputs.cache
+D:\Soniya\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.csproj.CopyComplete
+D:\Soniya\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\obj\Debug\AzzidaApi.pdb
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\PushSharp.Apple.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\PushSharp.Core.dll
+D:\Soniya\Azzida\Azzida\AzzidaApi\bin\BAL.dll.config

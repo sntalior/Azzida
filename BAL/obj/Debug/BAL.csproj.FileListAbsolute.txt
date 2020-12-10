@@ -1,0 +1,65 @@
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\BAL.dll
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\BAL.pdb
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\DAL.dll
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\DAL.pdb
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\DAL.dll.config
+F:\office Work\Azzida\Azzida\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+F:\office Work\Azzida\Azzida\BAL\obj\Debug\BAL.csproj.CopyComplete
+F:\office Work\Azzida\Azzida\BAL\obj\Debug\BAL.dll
+F:\office Work\Azzida\Azzida\BAL\obj\Debug\BAL.pdb
+G:\Azzida\Azzida\BAL\bin\Debug\BAL.dll
+G:\Azzida\Azzida\BAL\bin\Debug\BAL.pdb
+G:\Azzida\Azzida\BAL\bin\Debug\DAL.dll
+G:\Azzida\Azzida\BAL\bin\Debug\DAL.pdb
+G:\Azzida\Azzida\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+G:\Azzida\Azzida\BAL\obj\Debug\BAL.dll
+G:\Azzida\Azzida\BAL\obj\Debug\BAL.pdb
+G:\Azzida\Azzida\BAL\bin\Debug\JWT.dll
+G:\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.dll
+G:\Azzida\Azzida\BAL\bin\Debug\Twilio.dll
+G:\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.xml
+G:\Azzida\Azzida\BAL\bin\Debug\Twilio.xml
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\BAL.dll
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\BAL.pdb
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\DAL.dll
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\JWT.dll
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.dll
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\Twilio.dll
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\DAL.pdb
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\DAL.dll.config
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.xml
+F:\ofcwrk\Azzida\Azzida\BAL\bin\Debug\Twilio.xml
+F:\ofcwrk\Azzida\Azzida\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+F:\ofcwrk\Azzida\Azzida\BAL\obj\Debug\BAL.csproj.CopyComplete
+F:\ofcwrk\Azzida\Azzida\BAL\obj\Debug\BAL.dll
+F:\ofcwrk\Azzida\Azzida\BAL\obj\Debug\BAL.pdb
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\JWT.dll
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.dll
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\Twilio.dll
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.xml
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\Twilio.xml
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\BAL.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\BAL.pdb
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\DAL.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\JWT.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\Twilio.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\DAL.pdb
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\DAL.dll.config
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\Newtonsoft.Json.xml
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\Twilio.xml
+D:\Soniya\Azzida\Azzida\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\Soniya\Azzida\Azzida\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+D:\Soniya\Azzida\Azzida\BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\Soniya\Azzida\Azzida\BAL\obj\Debug\BAL.dll
+D:\Soniya\Azzida\Azzida\BAL\obj\Debug\BAL.pdb
+F:\office Work\Azzida\Azzida\BAL\bin\Debug\Stripe.net.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\Stripe.net.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\BAL.dll.config
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Amazon.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Apple.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Blackberry.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Core.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Firefox.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Google.dll
+D:\Soniya\Azzida\Azzida\BAL\bin\Debug\PushSharp.Windows.dll
